@@ -1,4 +1,9 @@
 #!/bin/env python3
+## Usage ./multi_cdf.py -d DataSet -r Range_of_data 
+# Range_of_data = dataset_1, dataset_2
+    # Useage -r 2
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 from netCDF4 import Dataset
